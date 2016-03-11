@@ -1,2 +1,5 @@
 Question How can you use the staging area to make sure you have one commit per logical change?
 A: Check the git status.  If you have more than one or two files edited, it might mean that you have more than one logical change.
+
+Question What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Branches can help you separate different versions.  Perhaps to be merged later.  But it allows you to make meaningful changes without harming the functionality of the main branch.
