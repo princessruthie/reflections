@@ -3,3 +3,6 @@ A: Check the git status.  If you have more than one or two files edited, it migh
 
 Question What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A: Branches can help you separate different versions.  Perhaps to be merged later.  But it allows you to make meaningful changes without harming the functionality of the main branch.
+
+Question What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: Merging two branches creates commit that has the history of both parents.  That why we represent it with two arrows pointing in.
