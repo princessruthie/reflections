@@ -1,0 +1,21 @@
+Viewing the diff between the two files helped because it let you just 
+look at what was different between the two files.  Otherwise you'd have
+to sift through everything.
+
+Having easy accesss to the entire history of a file can make you a more efficient programmer because you can always get back to a working version
+of your code.  Also, you can delete instead of commenting out.  So it's cleaner and more efficient.
+
+All four options make sense.  The fourth one is appealing because you can ensure, right before making a big change or taking a break, that the version you'd refer to exists.  Similarly, if there's been a pause in coding, the user likely will want a backed up copy.  The first option, at regular intervals, takes into account that programmers are people. We might forget to save along the way.  Ditto for the second option.
+
+Good things about manual commits are that you can make sure each version is a working compiling copy.  You can also make sure that each version's differences can be summed up to other coders.  The con is that you must rely on humans to save at reasonable intervals.  People are forgetful.  Also, some people might have different ideas about when is a code commit.
+
+It makes sense that coding files all be kept together.  If you change the name of a class or method, then other classes fields etc that rely on those methods/classes will be updated too.  Reverting to an old version fo a changed class will not reverting the dependent files would not be helpful.  But for Google docs, the updates are independent.
+
+Question: how can you use the commands git log and git diff to view the history of files?
+A: git log gives you the name, purpose and date for each commit.  you can you two names and the diff function to find out what changed.
+
+Question: how might using version control make you more confident to make changes that would break something?
+A: Knowing that you have the most recent working version available to revert to means never having to worry.  You can make any changes you think make sense and if they don't work, just revert.
+
+Question: Now that you have your workspace set u, what do you want to try using Git for?
+A: I want to use it at work to protect my php project from momemntus un undoable actions.  Also, I would like to have enough skill to have android files better behave.
