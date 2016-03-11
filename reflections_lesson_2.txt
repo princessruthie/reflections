@@ -6,3 +6,6 @@ A: Branches can help you separate different versions.  Perhaps to be merged late
 
 Question What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: Merging two branches creates commit that has the history of both parents.  That why we represent it with two arrows pointing in.
+
+Question What are the pros and cons of Git's automatic merging vs. always doing manual merges?  
+A: Git's automatic merging is good in that is only does the safest merges.  Always doing it manually would be good for fine control.  Two team members might both add code that do the same thing.  Git wouldn't force a conflict resolution in such a case.  But that seems more like team management problem.
