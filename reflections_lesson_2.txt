@@ -1,0 +1,2 @@
+Question How can you use the staging area to make sure you have one commit per logical change?
+A: Check the git status.  If you have more than one or two files edited, it might mean that you have more than one logical change.
