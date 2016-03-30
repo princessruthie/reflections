@@ -3,3 +3,7 @@ A remote repository makes it possible to work with people far away.  It also mak
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with the remote repository?
 Just because some has updated files in the repository doesn't mean they're production ready.  Also if you're in the middle of writing a certain feature, you may not want to be nuisanced with the minor changes of your co-contributors.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If you know the last state of the remote, you can tell what has changed since the two were last reconciled.
