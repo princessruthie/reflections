@@ -9,3 +9,6 @@ If you know the last state of the remote, you can tell what has changed since th
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 In the past I've used a shared dropbox photo.  Not everyone is willing to spend hours learning git, so you have more possible collaborators.  It would be easier to work with a certain set of people.  It would be harder to understand what exactly had been changed and why.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I'd want to make changes in a separate branch when working on new features or fixing bugs.  It lets you develop without affecting the production code.  Working directly in master would maybe make sense if working alone on straightforward features.  That would avoid the annoyance of having to merge code as you go.
