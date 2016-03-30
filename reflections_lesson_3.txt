@@ -5,5 +5,7 @@ Why might you want to always pull changes manually rather than having Git automa
 Just because some has updated files in the repository doesn't mean they're production ready.  Also if you're in the middle of writing a certain feature, you may not want to be nuisanced with the minor changes of your co-contributors.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
-
 If you know the last state of the remote, you can tell what has changed since the two were last reconciled.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+In the past I've used a shared dropbox photo.  Not everyone is willing to spend hours learning git, so you have more possible collaborators.  It would be easier to work with a certain set of people.  It would be harder to understand what exactly had been changed and why.
